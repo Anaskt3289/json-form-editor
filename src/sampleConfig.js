@@ -1,7 +1,3 @@
-/**
- * Sample JSON configuration for testing the dynamic form editor
- * This represents a complex nested structure with various data types
- */
 export const sampleConfig = {
   appName: 'My Application',
   version: '1.0.0',

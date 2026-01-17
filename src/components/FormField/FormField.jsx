@@ -2,11 +2,6 @@ import React from 'react';
 import { inferType } from '../../utils/typeInference.js';
 import styles from './FormField.module.css';
 
-/**
- * FormField Component
- * Renders the appropriate input component based on the inferred type
- * This is a pure component that doesn't handle state - parent manages it
- */
 export const FormField = ({ value, onChange, path, readOnly = false, label }) => {
   const type = inferType(value);
   const fieldPath = path.join('.');

@@ -4,17 +4,6 @@ import { updateNestedPath, deleteNestedPath, pathToString } from '../../utils/js
 import { FormField } from '../FormField/FormField.jsx';
 import styles from './JsonForm.module.css';
 
-/**
- * JsonForm Component - Recursive Form Renderer
- * 
- * This component recursively renders a form based on JSON structure:
- * - Primitives (string, number, boolean) → FormField component
- * - Objects → Collapsible section with nested JsonForm
- * - Arrays → Dynamic list editor with add/remove functionality
- * 
- * The component maintains the same JSON shape in state and updates
- * nested paths immutably.
- */
 export const JsonForm = ({
   data,
   onChange,

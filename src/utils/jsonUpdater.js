@@ -1,18 +1,3 @@
-/**
- * Immutable JSON updater utility
- * Provides functions to update nested JSON structures immutably
- */
-
-/**
- * Updates a nested value in a JSON object using a path array
- * @param {Object|Array} obj - The object/array to update
- * @param {Array<string|number>} path - Array of keys/indexes representing the path (e.g., ['server', 'port'])
- * @param {*} value - The new value to set
- * @returns {Object|Array} A new object/array with the updated value
- * 
- * Example:
- * updateNestedPath({a: {b: 1}}, ['a', 'b'], 2) => {a: {b: 2}}
- */
 export const updateNestedPath = (obj, path, value) => {
   // Handle null/undefined root
   if (obj === null || obj === undefined) {

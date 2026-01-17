@@ -3,17 +3,6 @@ import { JsonForm } from './components/JsonForm/JsonForm.jsx';
 import { sampleConfig } from './sampleConfig.js';
 import styles from './App.module.css';
 
-/**
- * Main App Component
- * 
- * Manages the root JSON state and provides controls for:
- * - Read-only mode toggle
- * - Show/hide field paths
- * - Form submission
- * 
- * The state maintains the exact JSON structure, and updates
- * are handled immutably through the JsonForm component.
- */
 function App() {
   // Initialize state with sample config
   const [config, setConfig] = useState(sampleConfig);
