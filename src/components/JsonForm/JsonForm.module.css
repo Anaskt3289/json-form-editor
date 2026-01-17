@@ -1,0 +1,129 @@
+.fieldWrapper {
+  margin-bottom: 12px;
+}
+
+.path {
+  font-size: 11px;
+  color: #666;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 4px;
+  padding: 2px 6px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.objectContainer,
+.arrayContainer {
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.objectHeader,
+.arrayHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  flex-wrap: wrap;
+}
+
+.objectLabel,
+.arrayLabel {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.arrayCount {
+  font-size: 12px;
+  color: #666;
+  margin-left: auto;
+}
+
+.collapseButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: #666;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.collapseButton:hover {
+  background-color: #e9ecef;
+}
+
+.objectContent,
+.arrayContent {
+  padding: 16px;
+}
+
+.emptyObject,
+.emptyArray {
+  color: #999;
+  font-style: italic;
+  font-size: 13px;
+  padding: 8px;
+}
+
+.arrayItem {
+  margin-bottom: 16px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.arrayItemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.arrayIndex {
+  font-weight: 600;
+  font-size: 13px;
+  color: #666;
+  font-family: 'Courier New', monospace;
+}
+
+.removeButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.removeButton:hover {
+  background-color: #c82333;
+}
+
+.addButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 8px;
+}
+
+.addButton:hover {
+  background-color: #218838;
+}
