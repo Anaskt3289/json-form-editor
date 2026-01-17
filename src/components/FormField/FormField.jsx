@@ -7,7 +7,7 @@ export const FormField = ({ value, onChange, path, readOnly = false, label }) =>
   const fieldPath = path.join('.');
 
   const handleChange = (newValue) => {
-    // Convert string inputs to appropriate types
+    // Convert string inputs to appropriate types 
     if (type === 'number' && typeof newValue === 'string') {
       const numValue = parseFloat(newValue);
       if (!isNaN(numValue)) {
